@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-remove-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Removes occurences of *.map filenames in the manifest file created by gulp-rev",
   "main": "index.js",
   "repository": "antpaw/gulp-rev-remove-map",

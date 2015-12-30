@@ -34,7 +34,7 @@ function plugin(options) {
         }
       });
       // file should be searched for replaces
-      file.contents = new Buffer(JSON.stringify(map));
+      file.contents = new Buffer(JSON.stringify(map, null, 2));
     }
 
     this.push(file);
